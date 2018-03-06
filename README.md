@@ -17,11 +17,13 @@ LinkedIn SDK iOS dependency eleminating manual import of  `linkedin-sdk.framewor
                                     options: options)
     }
     ```
-3. Now can use `LISDKSessionManager` etc classes in your project by importing LinkedInSwift module `import LinkedInSwift`.
+3. `import LinkedInSDK`, now can use `LISDKSessionManager` etc. classes in your project.
 
 # Features
- `LinkedIn.swift` simplifies **login and fetch user** process out of the box.
+ `LinkedIn.swift` simplifies **login and fetch user** process out of the box. import `LinkedInSwift` (not `LinkedInSDK`)
 ```swift
+import LinkedInSwift
+// ...
 LinkedIn.login(permissions: [.basicProfile, .email] { (user: LinkedInUser?, error: Error?) in
     print(user?.jsonDict as Any, error as Any)
 }
