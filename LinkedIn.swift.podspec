@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'LinkedIn.swift'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'LinkedIn SDK wrapper for swift.'
     s.homepage         = 'https://github.com/BiAtoms/LinkedIn.swift'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
