@@ -1,5 +1,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LinkedIn.swift.svg?style=flat)](https://github.com/BiAtoms/LinkedIn.swift)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/LinkedIn.swift.svg)](https://cocoapods.org/pods/LinkedIn.swift)
+[![Carthage Compatible](https://img.shields.io/badge/carthage-compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![License](https://img.shields.io/github/license/BiAtoms/LinkedIn.swift.svg)](https://github.com/BiAtoms/LinkedIn.swift/blob/master/LICENSE)
 
 
 # LinkedIn.swift
@@ -56,6 +58,26 @@ Then, run the following command:
 ```bash
 $ pod install
 ```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate LinkedIn.swift into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "BiAtoms/LinkedIn.swift" ~> 1.0
+```
+
+Run `carthage update` to build the framework and drag the built `LinkedInSwift.framework` into your Xcode project.
+
 ## Authors
 
 * **Orkhan Alikhanov** - *Initial work* - [OrkhanAlikhanov](https://github.com/OrkhanAlikhanov)
@@ -64,4 +86,4 @@ See also the list of [contributors](https://github.com/BiAtoms/LinkedIn.swift/co
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/BiAtoms/LinkedIn.swift/blob/master/LICENSE) file for details
